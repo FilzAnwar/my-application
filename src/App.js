@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Typography , Button } from '@mui/material'
+import Login from './components/login';
 
 function App() {
   return (
     <div className="App">
+{/*       
       <header className="App-header">
+      <Typography variant='h2'component={"h2"} sx={{bgcolor:'white' , color:'Highlight'}}>Typography with h2 variant   !</Typography>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           EDIT <code>src/App.js</code> and save to reload.
@@ -17,7 +22,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+
+      </header> */}
+
+    <Login/>
     </div>
   );
 }
